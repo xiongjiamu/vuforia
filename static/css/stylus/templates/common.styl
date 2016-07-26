@@ -1,0 +1,87 @@
+//-@import "http://csdnimg.cn/public/common/libs/bootstrap/css/bootstrap.css";*/
+//-@import "http://static.csdn.net/public/common/toolbar/css/index.css";
+//-@import "http://csdnimg.cn/public/static/css/panels.css";
+//-@import "http://csdnimg.cn/public/static/css/csdn-index-footer.css";
+//-@import "http://csdnimg.cn/public/static/css/csdn-prod-footer.css"
+/*去除默认样式 开始*/
+body,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,ol,p,input,select,option,textarea,button
+    margin 0
+    padding 0
+    font-family 'Microsoft YaHei'
+    font-weight normal
+
+ul,li,ol,dl,dt,dd
+    list-style none
+input,button,select,textarea
+    border none
+    background none
+    outline none
+textarea
+    resize none
+table
+
+img
+    border none
+    vertical-align middle
+    outline none
+a
+    text-decoration none
+    outline none
+a:link,a:visited,a:hover,a:active
+  outline none
+  text-decoration none
+em,i,u
+    font-style normal
+b,strong
+    font-weight normal
+/*去除默认样式 结束*/
+
+/*公共样式 开始*/
+body
+    background #fff
+    font-size 14px
+    color #666666
+    font-family "Microsoft YaHei"
+.fl
+    float left
+.fr
+    float right
+.content
+  overflow hidden
+.content_L,content_R
+  width 100%
+.content_R
+  padding 0 15px
+@media (min-width :768px)
+  .content
+    padding-top 30px
+  .content_L
+    width 66%
+    float left
+    padding-left 15px
+  .content_R
+    width 30%
+    float right
+    padding-left 0
+    padding-right 15px
+@media (min-width :1140px)
+  .content
+    width 1140px
+    padding none
+    padding-top 30px
+    margin 0 auto
+  .content_L
+    width 750px
+    padding-left 0
+  .content_R
+    width 340px
+    padding-right 0
+.clearfix
+    &:after
+        width 0
+        height 0
+        content "."
+        display block
+        clear both
+        visibility hidden
+/*公共样式 结束*/

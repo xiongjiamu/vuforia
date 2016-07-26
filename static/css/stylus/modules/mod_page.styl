@@ -1,0 +1,95 @@
+$mod_page()
+  /* page 开始 */
+  .btn-default
+    border none
+    color #666
+  .page-nav
+    overflow hidden
+    width auto
+    height auto
+  .csdn-pagination
+    vertical-align middle
+    display table
+    font-size 12px
+    margin 0 auto
+    padding 0 0 50px
+    .btn
+      padding 3px 5px
+      margin 0 -1px
+      height 22px
+      min-width 22px
+      border 1px solid #E6E6E6
+      border-right none
+      background #fff
+      line-height 15px
+    .borderR,.border320
+      border 1px solid #E6E6E6
+    .text
+      color #666
+    .page-set
+      margin-right 30px
+      .btn .caret
+        margin-left 20px
+    .page-go
+      margin-left 20px
+    input
+      width 35px
+      height 22px
+    .btn-go
+      background-color #eee
+    .btn:hover
+      background-color #fff
+      border 1px solid #E6E6E6
+      border-right none
+      color #5BB73B
+    .borderR:hover,.border320
+      border 1px solid #E6E6E6
+    .active,.active:hover
+      border-color #5BB73B
+      background-color #5BB73B
+      color #fff
+      cursor default
+    .page-nav
+      span,a,input
+        float left
+        margin 0
+        border-radius 0
+      input.text
+        border 1px solid #e6e6e6
+        padding 3px 5px
+        text-align center
+        line-height 0
+      .ellipsis
+        margin 0 7px
+      .pageM01
+        margin 7px 20px 0 0
+      .pageM02
+        margin 2px 2px 0
+      .pageM03
+        margin 2px 2px 0
+      .No320
+        display none
+
+  @media(min-width: 800px)
+    .csdn-pagination
+      padding 18px 0 142px
+      .btn
+        height 28px
+        min-width 28px
+        line-height 20px
+      .border320
+        border-right none
+      input
+        width 48px
+        height 28px
+      .border320:hover
+        border-right none
+      .page-nav
+        .pageM02
+          margin 7px 7px 0 20px
+        .pageM03
+          margin 7px 7px 0
+        .No320
+          display inline-block
+  /* page 结束 */
+

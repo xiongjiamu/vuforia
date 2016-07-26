@@ -1,0 +1,131 @@
+@import '../modules/mod_nav'
+$mod_nav()
+@import '../modules/mod_right'
+$mod_right()
+@import '../modules/mod_title'
+$mod_title()
+
+/* 左边 开始 */
+.forum_adv
+  padding 18px 15px 0
+  img
+    width 100%
+@media(min-width:768px)
+  .forum_adv
+    padding 0
+
+/* 开发者论坛 开始 */
+.forum_conBox
+  padding 18px 15px 0
+.forum_con
+  padding 14px 0 28px
+.forum_add
+  height 40px
+  overflow hidden
+  span
+    font-size 13px
+    line-height 31px
+    color #666
+  a
+    display block
+    width   74px
+    height 30px
+    border-radius 2px
+    background #00AEEF
+    line-height 30px
+    text-align center
+    font-size 14px
+    color #fff
+    span
+      font-size 12px
+      color #fff
+      margin-right 8px
+.forum_title
+  display none
+  padding-left 15px
+  height 38px
+  line-height 34px
+  border-bottom 2px solid #B3B3B3
+  border-top 2px solid #B3B3B3
+  overflow hidden
+  color #666666
+  font-size 13px
+  span
+    float left
+    width auto
+    max-width 470px
+  b,em
+    float right
+    font-weight normal
+    font-style normal
+  b
+    width 135px
+  em
+    width 95px
+.forum_list
+  tr
+    padding 18px 16px 16px
+  .forumL_con
+    width 100%
+    font-size 13px
+    line-height 20px
+    padding 18px 16px 16px
+    a
+      color #0071C5
+  .forum_author,.forum_time
+    display none
+    font-style normal
+    color #666666
+    font-size 13px
+  .forum_list02
+    background #F5F5F5
+
+@media(min-width:768px)
+  .forum_conBox
+    padding 28px 0 18px
+  .forum_title
+    display block
+  .forum_list
+    padding-top 15px
+    .forumL_con
+      width auto
+      max-width 520px
+      padding 18px 44px 16px 16px
+    .forum_author,.forum_time
+      display table-cell
+      vertical-align middle
+    .forum_author
+      width 135px
+    .forum_time
+      width 95px
+
+/*@media(min-width:768px) and (max-width :800px)
+  .forum_list
+    .forumL_con
+      width 275px
+@media(min-width:801px) and (max-width :850px)
+  .forum_list
+    .forumL_con
+      width 315px
+@media(min-width:851px) and (max-width :910px)
+  .forum_list
+    .forumL_con
+      width 355px
+@media(min-width:911px) and (max-width :970px)
+  .forum_list
+    .forumL_con
+      width 320px
+@media(min-width:971px) and (max-width :1045px)
+  .forum_list
+    .forumL_con
+      width 360px
+@media(min-width:1046px) and (max-width :1139px)
+  .forum_list
+    .forumL_con
+      width 405px*/
+
+
+/* 开发者论坛 结束 */
+@import '../modules/mod_page'
+$mod_page()
+/* 左边 结束 */

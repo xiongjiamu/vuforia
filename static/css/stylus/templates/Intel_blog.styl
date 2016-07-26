@@ -1,0 +1,55 @@
+@import '../modules/mod_nav'
+$mod_nav()
+@import '../modules/mod_right'
+$mod_right()
+@import '../modules/mod_page'
+$mod_page()
+//@import '../modules/mod_title'
+//$mod_title()
+
+/* 左边 开始 */
+@import '../modules/mod_tuwen'
+$mod_tuwen()
+
+.blogs_list
+  padding 18px 15px 0
+.inforL_con
+  padding 0 15px 22px
+  dt
+    position relative
+    font-size 18px
+    .zy_tit
+      width 80%
+      overflow hidden
+      white-space nowrap
+      text-overflow ellipsis
+      display inline-block
+    .zy_down
+      position absolute
+      top 0
+      right 0
+      color #fff
+      font-size 13px
+      background-color #236192
+      padding 4px 10px
+      border-radius 5px
+
+.developer_zone
+  ul
+    margin-top 20px
+    li
+      line-height 22px
+      margin-bottom 16px
+      a
+        color #3D4647
+        font-size 14px
+        &:hover
+          color #007A3E
+
+@media(min-width:768px)
+  .blogs_list
+    padding 0
+  .inforL_con
+    padding  0 0 28px
+
+/* 左边 结束 */

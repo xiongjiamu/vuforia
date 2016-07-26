@@ -1,0 +1,591 @@
+/* nav 开始 */
+.nav_all {
+  padding: 0 15px;
+  height: 50px;
+  background: #0071c5;
+}
+.nav_box {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.nav_box .nav_logo {
+  width: 60px;
+  height: 50px;
+  line-height: 50px;
+}
+.nav_box .nav_logo img {
+  margin-top: -4px;
+  width: 100%;
+}
+.nav_box .nav {
+  display: none;
+  overflow: hidden;
+  font-size: 18px;
+  height: 70px;
+}
+.nav_box .nav li {
+  margin: 0;
+}
+.nav_box .nav li a {
+  display: inline-block;
+  height: 70px;
+  background: none;
+  border-radius: 0;
+  line-height: 70px;
+  padding: 0 30px;
+  color: #fff;
+}
+.nav_box .nav li:hover {
+  background: #00aeef;
+}
+.nav_box .nav li:hover a {
+  color: #fff;
+}
+.nav_box .nav .activeN {
+  background: #fff;
+}
+.nav_box .nav .activeN a {
+  color: #0071c5;
+}
+.nav_box .nav_icon {
+  height: 50px;
+  width: auto;
+  display: inline-block;
+  line-height: 62px;
+}
+.nav_box .nav_icon i {
+  font-size: 34px;
+  color: #fff;
+}
+.navAll_fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+.mobile_navBox {
+  width: 0%;
+  height: 100%;
+  padding-top: 45px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100000;
+  transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+}
+.mobile_nav {
+  width: 0%;
+  height: auto;
+/*background rgba(0,0,0,0.85)*/
+  position: fixed;
+  right: 0;
+  top: 50px;
+  z-index: 100002;
+  transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+}
+.mobile_nav ul li {
+  background: #00aeef;
+}
+.mobile_nav ul li a {
+  display: block;
+  width: 100%;
+  height: 42px;
+  border-radius: 0;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.mobile_nav ul .activeNM {
+  background: #c5eeff;
+}
+.mobile_nav ul .activeNM a {
+  color: #0071c5;
+}
+.mobile_navBox.mobile_NBShow {
+  width: 100%;
+}
+.mobile_nav.mobile_NShow {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .nav_all {
+    height: 70px;
+  }
+  .nav_box {
+    height: 70px;
+  }
+  .nav_box .nav_logo {
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+  }
+  .nav_box .nav_logo img {
+    margin-top: -8px;
+  }
+  .nav_box .nav {
+    display: block;
+  }
+  .nav_box .nav_icon {
+    display: none;
+  }
+  .mobile_navBox,
+  .mobile_nav {
+    display: none;
+  }
+}
+@media (min-width: 950px) {
+  .nav_box .nav li a {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1140px) {
+  .nav_box {
+    width: 1140px;
+  }
+}
+/* nav 结束 */
+/* left 开始 */
+.developer_zone {
+  display: none;
+}
+.developer_zoneTxt {
+  padding: 28px 0 40px;
+  color: #0071c5;
+  font-size: 14px;
+  line-height: 22px;
+}
+.ad_box {
+  display: none;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.ad_box img {
+  width: 100%;
+}
+.latest_blog {
+  padding: 18px 0 0;
+}
+.LB_list {
+  font-family: "Microsoft YaHei";
+  padding-bottom: 22px;
+}
+.LB_list h4 {
+  padding-bottom: 8px;
+  line-height: 22px;
+  font-weight: normal;
+}
+.LB_list h4 a {
+  color: #0071c5;
+  font-size: 14px;
+}
+.LB_list p {
+  line-height: 22px;
+  color: #666;
+}
+.developer_forum {
+  padding: 18px 0 30px;
+}
+.developer_forum li {
+  padding-bottom: 12px;
+  overflow: hidden;
+}
+.developer_forum li span {
+  float: left;
+  width: 45px;
+  line-height: 22px;
+  color: #666;
+}
+.developer_forum li a {
+  float: left;
+  width: 85%;
+  line-height: 22px;
+  color: #0071c5;
+}
+@media (min-width: 200px) and (max-width: 335px) {
+  .developer_forum {
+    padding: 28px 0 30px;
+  }
+  .developer_forum li a {
+    width: 82%;
+  }
+}
+@media (min-width: 768px) and (max-width: 929px) {
+  .developer_forum {
+    padding: 28px 0 30px;
+  }
+  .developer_forum li a {
+    width: 78%;
+  }
+  .latest_blog {
+    padding: 28px 0 10px;
+  }
+  .LB_list {
+    padding-bottom: 30px;
+  }
+  .LB_list h4 {
+    padding-bottom: 12px;
+  }
+  .developer_forum {
+    padding: 28px 0 30px;
+  }
+}
+@media (min-width: 930px) and (max-width: 1046px) {
+  .developer_forum {
+    padding: 28px 0 30px;
+  }
+  .developer_forum li a {
+    width: 83%;
+  }
+  .latest_blog {
+    padding: 28px 0 10px;
+  }
+  .LB_list {
+    padding-bottom: 30px;
+  }
+  .LB_list h4 {
+    padding-bottom: 12px;
+  }
+  .developer_forum {
+    padding: 28px 0 30px;
+  }
+}
+.attention {
+  display: none;
+  padding: 30px 0;
+  border-top: 2px solid #b3b3b3;
+}
+.attention p {
+  padding-bottom: 20px;
+  line-height: 22px;
+  color: #666;
+}
+.attention ul {
+  overflow: hidden;
+}
+.attention ul li {
+  width: 46%;
+}
+.attention ul li img {
+  width: 100%;
+}
+.attention ul li span {
+  display: block;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #e64322;
+}
+.attention ul li p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+}
+@media (min-width: 768px) {
+  .developer_zone,
+  .ad_box,
+  .attention {
+    display: block;
+  }
+}
+/* left 结束 */
+/* title 开始 */
+.mod_title {
+  width: 100%;
+  overflow: hidden;
+  line-height: 30px;
+}
+.mod_title span {
+  float: left;
+  color: #53565a;
+  font-size: 24px;
+}
+.mod_title .more {
+  display: block;
+  float: right;
+  width: 50px;
+  text-align: center;
+  color: #004280;
+  font-size: 13px;
+}
+/* title 结束 */
+/* 左边 开始 */
+.forum_adv {
+  padding: 18px 15px 0;
+}
+.forum_adv img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .forum_adv {
+    padding: 0;
+  }
+}
+/* 开发者论坛 开始 */
+.forum_conBox {
+  padding: 18px 15px 0;
+}
+.forum_con {
+  padding: 14px 0 28px;
+}
+.forum_add {
+  height: 40px;
+  overflow: hidden;
+}
+.forum_add span {
+  font-size: 13px;
+  line-height: 31px;
+  color: #666;
+}
+.forum_add a {
+  display: block;
+  width: 74px;
+  height: 30px;
+  border-radius: 2px;
+  background: #00aeef;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.forum_add a span {
+  font-size: 12px;
+  color: #fff;
+  margin-right: 8px;
+}
+.forum_title {
+  display: none;
+  padding-left: 15px;
+  height: 38px;
+  line-height: 34px;
+  border-bottom: 2px solid #b3b3b3;
+  border-top: 2px solid #b3b3b3;
+  overflow: hidden;
+  color: #666;
+  font-size: 13px;
+}
+.forum_title span {
+  float: left;
+  width: auto;
+  max-width: 470px;
+}
+.forum_title b,
+.forum_title em {
+  float: right;
+  font-weight: normal;
+  font-style: normal;
+}
+.forum_title b {
+  width: 135px;
+}
+.forum_title em {
+  width: 95px;
+}
+.forum_list tr {
+  padding: 18px 16px 16px;
+}
+.forum_list .forumL_con {
+  width: 100%;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 18px 16px 16px;
+}
+.forum_list .forumL_con a {
+  color: #0071c5;
+}
+.forum_list .forum_author,
+.forum_list .forum_time {
+  display: none;
+  font-style: normal;
+  color: #666;
+  font-size: 13px;
+}
+.forum_list .forum_list02 {
+  background: #f5f5f5;
+}
+@media (min-width: 768px) {
+  .forum_conBox {
+    padding: 28px 0 18px;
+  }
+  .forum_title {
+    display: block;
+  }
+  .forum_list {
+    padding-top: 15px;
+  }
+  .forum_list .forumL_con {
+    width: auto;
+    max-width: 520px;
+    padding: 18px 44px 16px 16px;
+  }
+  .forum_list .forum_author,
+  .forum_list .forum_time {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .forum_list .forum_author {
+    width: 135px;
+  }
+  .forum_list .forum_time {
+    width: 95px;
+  }
+}
+/*@media(min-width:768px) and (max-width :800px)
+  .forum_list
+    .forumL_con
+      width 275px
+@media(min-width:801px) and (max-width :850px)
+  .forum_list
+    .forumL_con
+      width 315px
+@media(min-width:851px) and (max-width :910px)
+  .forum_list
+    .forumL_con
+      width 355px
+@media(min-width:911px) and (max-width :970px)
+  .forum_list
+    .forumL_con
+      width 320px
+@media(min-width:971px) and (max-width :1045px)
+  .forum_list
+    .forumL_con
+      width 360px
+@media(min-width:1046px) and (max-width :1139px)
+  .forum_list
+    .forumL_con
+      width 405px*/
+/* 开发者论坛 结束 */
+/* page 开始 */
+.btn-default {
+  border: none;
+  color: #666;
+}
+.page-nav {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+.csdn-pagination {
+  vertical-align: middle;
+  display: table;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 0 0 50px;
+}
+.csdn-pagination .btn {
+  padding: 3px 5px;
+  margin: 0 -1px;
+  height: 22px;
+  min-width: 22px;
+  border: 1px solid #e6e6e6;
+  border-right: none;
+  background: #fff;
+  line-height: 15px;
+}
+.csdn-pagination .borderR,
+.csdn-pagination .border320 {
+  border: 1px solid #e6e6e6;
+}
+.csdn-pagination .text {
+  color: #666;
+}
+.csdn-pagination .page-set {
+  margin-right: 30px;
+}
+.csdn-pagination .page-set .btn .caret {
+  margin-left: 20px;
+}
+.csdn-pagination .page-go {
+  margin-left: 20px;
+}
+.csdn-pagination input {
+  width: 35px;
+  height: 22px;
+}
+.csdn-pagination .btn-go {
+  background-color: #eee;
+}
+.csdn-pagination .btn:hover {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-right: none;
+  color: #00aeef;
+}
+.csdn-pagination .borderR:hover,
+.csdn-pagination .border320 {
+  border: 1px solid #e6e6e6;
+}
+.csdn-pagination .active,
+.csdn-pagination .active:hover {
+  border-color: #00aeef;
+  background-color: #00aeef;
+  color: #fff;
+  cursor: default;
+}
+.csdn-pagination .page-nav span,
+.csdn-pagination .page-nav a,
+.csdn-pagination .page-nav input {
+  float: left;
+  margin: 0;
+  border-radius: 0;
+}
+.csdn-pagination .page-nav input.text {
+  border: 1px solid #e6e6e6;
+  padding: 3px 5px;
+  text-align: center;
+  line-height: 0;
+}
+.csdn-pagination .page-nav .ellipsis {
+  margin: 0 7px;
+}
+.csdn-pagination .page-nav .pageM01 {
+  margin: 7px 20px 0 0;
+}
+.csdn-pagination .page-nav .pageM02 {
+  margin: 2px 2px 0;
+}
+.csdn-pagination .page-nav .pageM03 {
+  margin: 2px 2px 0;
+}
+.csdn-pagination .page-nav .No320 {
+  display: none;
+}
+@media (min-width: 800px) {
+  .csdn-pagination {
+    padding: 18px 0 142px;
+  }
+  .csdn-pagination .btn {
+    height: 28px;
+    min-width: 28px;
+    line-height: 20px;
+  }
+  .csdn-pagination .border320 {
+    border-right: none;
+  }
+  .csdn-pagination input {
+    width: 48px;
+    height: 28px;
+  }
+  .csdn-pagination .border320:hover {
+    border-right: none;
+  }
+  .csdn-pagination .page-nav .pageM02 {
+    margin: 7px 7px 0 20px;
+  }
+  .csdn-pagination .page-nav .pageM03 {
+    margin: 7px 7px 0;
+  }
+  .csdn-pagination .page-nav .No320 {
+    display: inline-block;
+  }
+}
+/* page 结束 */
+/* 左边 结束 */

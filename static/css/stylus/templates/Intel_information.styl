@@ -1,0 +1,134 @@
+@import '../modules/mod_nav'
+$mod_nav()
+@import '../modules/mod_right'
+$mod_right()
+@import '../modules/mod_title'
+$mod_title()
+@import '../modules/mod_tuwen'
+$mod_tuwen()
+@import '../modules/mod_page'
+$mod_page()
+/* 左边 开始 */
+// 资讯列表
+.infor_list
+  padding 18px 15px 0
+.inforL_tit
+  padding 18px 0 30px
+  .row
+    margin-left -10px
+    margin-right -10px
+  .col-xs-2
+    width 33.3333333333%
+    padding-right 10px
+    padding-left 10px
+.inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+  position relative
+  margin-bottom 10px
+  img
+    border-radius 4px 4px 0 0
+    width 100%
+  span
+    display block
+    width 100%
+    height 6px
+    border-radius 0 0 4px 4px
+  a
+    position absolute
+    top 0
+    left 0
+    display block
+    padding-top 10%
+    width 100%
+    height 100%
+    font-size 14px
+    color #fff
+    text-align center
+    font-weight bold
+.inforLT_list01
+  span
+    background #004280
+  a
+    background rgba(0, 66, 128, 0.5)
+.inforLT_list02
+  span
+    background #92B82C
+  a
+    background rgba(146, 184, 44, 0.5)
+.inforLT_list03
+  span
+    background #7DD1F4
+  a
+    background rgba(125, 209, 244, 0.5)
+.inforLT_list04
+  span
+    background #96A0A8
+  a
+    background rgba(150, 160, 168, 0.5)
+.inforLT_list05
+  span
+    background #141D23
+  a
+    background rgba(20, 29, 35, 0.5)
+
+@media(min-width:360px) and (max-width:430px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 16px
+@media(min-width:430px) and (max-width:500px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 18px
+      padding-top 15px
+@media(min-width:501px) and (max-width:640px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 20px
+      padding-top 20px
+@media(min-width:641px) and (max-width:715px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 22px
+      padding-top 25px
+@media(min-width:716px) and (max-width:767px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 24px
+      padding-top 30px
+@media(min-width:885px) and (max-width:1020px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 16px
+      padding-top 10px
+@media(min-width:1021px)
+  .inforLT_list01,.inforLT_list02,.inforLT_list03,.inforLT_list04,.inforLT_list05
+    a
+      font-size 18px
+      padding-top 12px
+@media(min-width:768px)
+  .infor_list
+    padding 0
+  .inforL_tit
+    padding 28px 0 42px
+    .row
+      margin-left -12px
+      margin-right -12px
+    .col-sm-2
+      width 20%
+      padding-right 12px
+      padding-left 12px
+  .inforLT_list01
+    a:hover
+      background rgba(0, 66, 128, 1)
+  .inforLT_list02
+    a:hover
+      background rgba(146, 184, 44, 1)
+  .inforLT_list03
+    a:hover
+      background rgba(125, 209, 244, 1)
+  .inforLT_list04
+    a:hover
+      background rgba(150, 160, 168, 1)
+  .inforLT_list05
+    a:hover
+      background rgba(20, 29, 35, 1)
+/* 左边 结束 */
